@@ -14,5 +14,6 @@ public class MininutesJob implements Job {
         String currentTime = sdf.format(now);
         System.out.println("执行时间为："+currentTime);
         System.out.println("============");
+        System.out.println("=====再次修改=======");
     }
 }
