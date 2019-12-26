@@ -13,5 +13,6 @@ public class MininutesJob implements Job {
         SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd HH:mm:ss");
         String currentTime = sdf.format(now);
         System.out.println("执行时间为："+currentTime);
+        System.out.println("============");
     }
 }
